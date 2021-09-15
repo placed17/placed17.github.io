@@ -1,5 +1,11 @@
+#titre-principal {
+  text-align: center;
+}
 body {
 background: rgb(136,121,121);
 background: linear-gradient(0deg, rgba(136,121,121,1) 0%, rgba(0,0,0,1) 59%);
 color: rgb(191, 191, 191, 100);
+}
+a {
+  color: grey;
 }
