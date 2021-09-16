@@ -1,6 +1,12 @@
 #titre-principal {
   text-align: center;
 }
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%
+}
 body {
 background: rgb(191,191,191);
 background: linear-gradient(0deg, rgba(191,191,191,1) 0%, rgba(37,35,35,1) 16%, rgba(0,0,0,1) 28%);
