@@ -1,8 +1,11 @@
 #titre-principal {
   text-align: center;
+  font-family: "Lucida console";
 }
 #biographie {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .images {
   display: block;
@@ -10,9 +13,7 @@
   margin-right: auto;
 }
 body {
-background: rgb(184,179,255);
-background: linear-gradient(90deg, rgba(184,179,255,1) 0%, rgba(253,29,29,1) 50%, rgba(255,150,85,1) 100%);
-  height: 100vh;
+background: rgb(217, 217, 217);
 color: black;
 }
 h1 {
@@ -23,4 +24,51 @@ a {
 }
 #retour {
   color: white;
+}
+.tableau {
+  margin-left: auto;
+  margin-right: auto;
+}
+#moi {
+  position: absolute;
+  left: 1200px;
+  bottom: 500px;
+}
+#navigation {
+  margin-left: 25px;
+}
+.liste {
+  line-height: 50px;
+  margin-left: 25px;
+}
+table, th, td {
+  border: 2px groove black;
+  background-color: grey;
+  color: rgb(217, 217, 217);
+}
+#langues {
+  position: absolute;
+  left: 500px;
+  bottom: 200px;
+  text-align: center;
+}
+#liens {
+  margin-left: 25px;
+}
+.info {
+  margin-left: 25px;
+  margin-bottom: 35px;
+  line-height: 30px;
+}
+#paragraphe_sur_moi {
+  margin-left: 25px;
+}
+.poemBox {
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  width: 20%;
+  border: 2px groove black;
+  line-height: 50px;
+  font-family: "Papyrus", "Lucida Handwriting", "Brush Script M7";
 }
