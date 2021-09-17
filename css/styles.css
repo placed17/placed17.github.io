@@ -1,6 +1,7 @@
 #titre-principal {
   text-align: center;
   font-family: "Lucida console";
+  <!-- ^les style pour tous les titres de pages -->
 }
 #biographie {
   text-align: center;
@@ -11,6 +12,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  <!-- ^^le positionnement des elements de ma biographie-->
 }
 body {
 background: rgb(217, 217, 217);
@@ -62,6 +64,7 @@ table, th, td {
 }
 #paragraphe_sur_moi {
   margin-left: 25px;
+  <!-- tout les "margins", c'est pour mon placement de plus d'elements de ma biographie -->
 }
 .poemBox {
   text-align: center;
@@ -72,3 +75,4 @@ table, th, td {
   line-height: 50px;
   font-family: "Papyrus", "Lucida Handwriting", "Brush Script M7";
 }
+<!-- details pour le poem -->
