@@ -71,7 +71,7 @@ table, th, td {
   margin-right:auto;
   width: 20%;
   border: 2px groove black;
-  line-height: 50px;
+  line-height: 100px;
   font-family: "Papyrus", "Lucida Handwriting", "Brush Script M7";
 }
 .artistes {
