@@ -79,3 +79,7 @@ table, th, td {
 height: 200px;
 width: 200px;
 }
+ul, li {
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
