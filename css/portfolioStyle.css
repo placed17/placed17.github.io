@@ -86,7 +86,9 @@ ul, li {
 #biographie-counter {
   counter-reset: heading;
 }
+/* l'outil que j'utilise pour ajouter les nombres pour compter les titres */
 h2::before {
   content: "Partie "counter(heading) ": ";
   counter-increment: heading;
 }
+/* la deuxieme partie du compteur css */
