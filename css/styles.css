@@ -6,7 +6,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  <!-- toutes les balises "margin auto", c'est pour aligner les elements au centre -->
+  /* toutes les balises "margin auto", c'est pour aligner les elements au centre */
 }
 .images {
   display: block;
@@ -52,7 +52,7 @@ table, th, td {
   left: 500px;
   bottom: -175px;
   text-align: center;
-  <!--  ^le positionnement de mon tableau de langues de codage -->
+  /*  ^le positionnement de mon tableau de langues de codage */
 }
 #liens {
   margin-left: 25px;
@@ -73,7 +73,7 @@ table, th, td {
   border: 2px groove black;
   line-height: 100px;
   font-family: "Papyrus", "Lucida Handwriting", "Brush Script M7";
-  <!-- mes changements au poem -->
+  /* mes changements au poem */
 }
 .artistes {
 height: 200px;
