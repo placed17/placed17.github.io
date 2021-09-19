@@ -83,3 +83,10 @@ ul, li {
   font-family: "Courier New", monospace;
   font-weight: bold;
 }
+#biographie-counter {
+  counter-reset: heading;
+}
+h2::before {
+  content: "Partie "counter(heading) ": ";
+  counter-increment: heading;
+}
