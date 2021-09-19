@@ -4,19 +4,46 @@
       <meta charset="utf-8">
             <title>biographie</title>
     <link rel="stylesheet" href="css/styles.css">
-   
+  
     </head
   <body>
     <a id="retour" href="index.html"> REVENIR AU PORTFOLIO</a>
   <h1 id="titre-principal">Biographie</h1>
-  <div class="info">
+    <div id="info">
     <h2> Un peu sur moi </h2>
-    <p id="paragraphe_sur_moi">Je me nomme Cédric, et j'ai 16 ans. Je vas à l'école secondaire Paul-Desmarais. J'aime beaucoup les jeux vidéos.<br> Dans mon temp libre, j'écoute de la musique, je joues des jeux vidéos, je regarde des vidéos youtube et je dors.</p></div>
+    <p id="paragraphe_sur_moi">Je me nomme Cédric, et j'ai 16 ans. Je vas à l'école secondaire Paul-Desmarais. J'aime beaucoup les jeux vidéos.<br> Dans mon temp libre, j'écoute de la musique, je joues des jeux vidéos, je regarde des vidéos youtube et je dors.</p>
+    
+    <h2> Mes artistes préférés</h2> 
+    <table id="artsites.tableau">
+      <tr>
+        <th>Metallica</th>
+        <th>Linkin Park</th>
+        <th>Kid Cudi</th>
+      </tr>
+
+      <tr>
+        <td>
+          <img class="artistes" src="https://lh3.googleusercontent.com/proxy/I3dH_slD_DUW8nfB7VBK-9o3lma7WH2oEwlfJ7WcJNyNcNblU1FybBmclARPYvGHkusVc7J4YlV9qSgfX5UjQpb9dtNK7-zxEhc7vpPCLzD_1x6eBms1dg9DNp5KjI2ATtjII5TyBIkiJvXzppZO2jwYXn8" alt="metallica black album cover">
+        </td>
+
+        <td>
+           <img class="artistes" src="https://upload.wikimedia.org/wikipedia/en/2/2a/Linkin_Park_Hybrid_Theory_Album_Cover.jpg" alt="linkin park hybrid theory album">
+        </td>
+
+        <td> <img class="artistes" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/26/ManonTheMoonTheEndofDay.jpg/220px-ManonTheMoonTheEndofDay.jpg" alt="album de kid cudi">
+        </td>
+
+        </tr>
+
+    </table>
+    </div> 
   <div id="navigation"><h2>Navigation dans cette page</h2></div>
   <ul class="liste">
+    <li><a href="#info">Information sur moi</a>
     <li><a href="#photo-de-moi">Photo de moi</a>
     <li><a href="#liens"> Mes liens préférés</a>
     <li><a href="#connaissances"> Mes connaissances de langues de code</a>
+    
     
     </ul>
   
@@ -31,13 +58,12 @@
       <li> <a target="_blank" href="https://github.com/">le hub</a>
       <li> <a target="_blank" href="https://www.spotify.com/us/">spotify</a>
     </ul> 
-    <--! liens prefere -->
 
   
   <div id="langues">
   <h2 id="connaissances"> Mes connaissances dans différentes langues de code</h2>   
   
-  <table class="tableau">
+  <table class="tableau" id="langues.tableau">
     <tr>
       <th><i>Langue de codage</i></th>
       <th>Expert</th>
@@ -87,9 +113,4 @@
   </table>
   </div>
   
-    
-  
-   
-  
-    
 </html>
