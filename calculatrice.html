@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>calculatrice</title>
+  </head>
+<body>
+	<script> 
+
+		let operation = prompt( "Quelle operation veux-tu faire." );
+		let x = parseInt(prompt( "Quel est ton premier nombre" ), 10);
+		let y = parseInt(prompt( "Quel est ton deuxieme nombre" ), 10);
+		let z;
+
+
+		switch (operation) {
+		case "Addition": 
+			addNumbers();
+			break;
+		
+		case "Soustraction":
+			substractNumbers();
+			break;
+		
+		case "Multiplication":
+			multiNumbers();
+			break;
+		
+		case "Division":
+			divNumbers();
+			break;
+		
+		case "Modulo":
+			moduloNumbers();
+			break;
+		
+		default:
+			alert("Choisi une operation SVP");
+		}
+
+		function addNumbers() {
+		z = x + y;
+		alert('La somme est ' + z);
+		}
+
+		function substractNumbers() {
+		z = x - y;
+		alert('La difference est ' + z);
+		}
+
+		function multiNumbers() {
+		z = x * y;
+		alert('Le produit est ' + z);
+		}
+
+		function divNumbers() {
+		z = x / y;
+		alert('Le quotient est ' + z);
+		}
+
+		function moduloNumbers() {
+		z = x % y;
+		alert('Le reste est ' + z);
+		}
+	</script>
+</body>
+</html>
